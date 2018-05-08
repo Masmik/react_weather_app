@@ -1,0 +1,68 @@
+body {
+  background-size: cover;
+  background-image: url("../images/stormy_clouds.jpg"); }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+button {
+  opacity: 0.8; }
+
+button:hover {
+  opacity: 1; }
+
+.list {
+  border-bottom: 2px dotted rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+  white-space: nowrap;
+  height: 2.1em; }
+
+.cityForecast {
+  line-height: 2.1em; }
+
+.wrapper {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+  .wrapper .appsName {
+    transition: box-shadow .5s;
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.54);
+    text-align: center; }
+    .wrapper .appsName .title {
+      font-size: 2.2em;
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+      line-height: 2em; }
+  .wrapper .searchContainer {
+    text-align: center;
+    margin-top: 4%; }
+    .wrapper .searchContainer .additionalBtn {
+      display: inline-block;
+      margin-right: 5px; }
+      .wrapper .searchContainer .additionalBtn .addFuncBtn {
+        background-color: rgba(0, 0, 0, 0.54);
+        border-width: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 4px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        vertical-align: middle;
+        outline: none;
+        max-height: 39px;
+        margin-right: 5px; }
+        .wrapper .searchContainer .additionalBtn .addFuncBtn.findLocation:disabled {
+          opacity: 0.3; }
+    .wrapper .searchContainer .searchInputWrapper {
+      display: inline-block; }
+  .wrapper .weatherInfo {
+    display: block; }
+  .wrapper .detailedInfo {
+    display: block;
+    text-align: center;
+    margin-top: 4%; }
+
+/*# sourceMappingURL=main.css.map */

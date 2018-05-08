@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.addFuncBlock {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 25%;
+  padding: 10px;
+  margin: 10px;
+  vertical-align: top;
+  text-align: left;
+  height: 278px;
+  overflow: hidden; }
+  .addFuncBlock .titleFuncBlock {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-weight: 300;
+    font-size: 1.3em;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    line-height: 1.5em; }
+  .addFuncBlock .day {
+    display: block;
+    border: 0;
+    border-bottom: 1px rgba(255, 255, 255, 0.12) dotted;
+    font-size: 1em;
+    outline: 0;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+  .addFuncBlock .byDays {
+    color: #fff; }
+    .addFuncBlock .byDays .nameOfTheDay {
+      display: inline-block;
+      vertical-align: middle;
+      width: 25%; }
+    .addFuncBlock .byDays .dayWeatherIcon {
+      display: inline-block;
+      text-align: center;
+      width: 25%; }
+    .addFuncBlock .byDays .humidity {
+      display: inline-block;
+      width: 22%; }
+      .addFuncBlock .byDays .humidity .humidityIcon {
+        width: 24px;
+        height: 24px; }
+      .addFuncBlock .byDays .humidity .humidityPercent {
+        display: inline-block;
+        margin: 5px;
+        font-size: 12px;
+        vertical-align: top; }
+    .addFuncBlock .byDays .temperatureContainer {
+      position: relative;
+      display: inline-block;
+      text-align: right; }
+      .addFuncBlock .byDays .temperatureContainer .dayMinTemp {
+        display: inline-block;
+        min-width: 30px; }
+        .addFuncBlock .byDays .temperatureContainer .dayMinTemp::after {
+          content: "°";
+          display: block;
+          position: absolute;
+          top: 0px;
+          right: 30px;
+          font-weight: 100; }
+      .addFuncBlock .byDays .temperatureContainer .dayMaxTemp {
+        position: relative;
+        display: inline-block;
+        padding-left: 10px;
+        min-width: 30px; }
+        .addFuncBlock .byDays .temperatureContainer .dayMaxTemp::after {
+          content: "°";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: -10px;
+          font-weight: 100; }
+
+/*# sourceMappingURL=weather_weekly.css.map */

@@ -1,0 +1,74 @@
+.currentCityWeather {
+  display: block;
+  text-align: center;
+  margin-top: 4%;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.54);
+
+  .currentCityName {
+    font-size: 3em;
+    font-weight: 400;
+    display: inline-block;
+    max-width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+  .currentRegion {
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 1.7em;
+  }
+
+  .currentDate {
+    display: block;
+    font-weight: 100;
+    font-size: 1em;
+
+  }
+
+  .weatherDescription {
+
+    .weatherIcon {
+      vertical-align: bottom;
+    }
+    .description {
+      font-size: 1.6em;
+      font-weight: 400;
+    }
+  }
+  .temperature {
+    display: inline-block;
+    font-weight: 100;
+    margin-top: 1em;
+    .temperatureValue {
+      font-size: 7em;
+    }
+    .degreeIcon {
+      vertical-align: top;
+      font-size: 7em;
+    }
+  }
+  .unit-control {
+    display: inline-block;
+    margin-left: -2px;
+    cursor: pointer;
+
+    .measure {
+      border-color: transparent;
+      text-transform: capitalize;
+      background-color: transparent;
+      padding: 1px;
+      outline: none;
+      display: block;
+      font-size: 1.6em;
+      font-weight: 300;
+      color: #fff;
+      cursor: pointer;
+
+    }
+    .inactive {
+      color: #878c93;
+    }
+  }
+}
